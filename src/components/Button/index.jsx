@@ -4,7 +4,7 @@ export default function Button ({children, active }){
     
     return(
         <>
-        <button className={`p-2 text-zinc-50 rounded-lg ${active ? "bg-zinc-900" : "hover:bg-zinc-900" }`}>
+        <button className={`flex gap-3 items-center p-2 text-zinc-50 rounded-lg ${active ? "bg-zinc-900" : "hover:bg-zinc-900" }`}>
 {children}
         </button>
         </>

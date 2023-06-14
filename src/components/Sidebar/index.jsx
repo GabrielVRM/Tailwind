@@ -1,3 +1,4 @@
+import { FiAlertOctagon, FiArchive, FiTrash2 } from "react-icons/fi";
 import Button, { ButtonWrite } from "../Button";
 
 export default function Sidebar() {
@@ -9,9 +10,9 @@ export default function Sidebar() {
         <Button active={true}>Caixa de Entrada</Button>
         <Button>Enviados</Button>
         <Button>Rascunhos</Button>
-        <Button>Arquivados</Button>
-        <Button>Spam</Button>
-        <Button>Lixeira</Button>
+        <Button><FiArchive /> Arquivados</Button>
+        <Button><FiAlertOctagon/>Spam</Button>
+        <Button><FiTrash2/>Lixeira</Button>
       </aside>
 
   );
