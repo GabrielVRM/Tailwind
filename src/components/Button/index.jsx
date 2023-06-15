@@ -15,7 +15,7 @@ export function ButtonWrite ({children }){
     
     return(
         <>
-        <button className="bg-emerald-400 hover:bg-emerald-500 text-zinc-50 border-gray-300 rounded-xl h-10 ">
+        <button className=" flex gap-3 items-center p-4 bg-emerald-400 hover:bg-emerald-500 text-zinc-50 border-gray-300 rounded-xl h-10 ">
 {children}
         </button>
         </>
